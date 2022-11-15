@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GunSystem:jar">
+    <output-path>$PROJECT_DIR$/../../gunTestserver/plugins</output-path>
+    <root id="archive" name="GunSystem.jar">
+      <element id="module-output" name="GunSystem" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../spigot-1.8.8-R0.1-SNAPSHOT-latest.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+      <element id="library" level="project" name="spigot-1.8.8-R0.1-SNAPSHOT-latest" />
+    </root>
+  </artifact>
+</component>
